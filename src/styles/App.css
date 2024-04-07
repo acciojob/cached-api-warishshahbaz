@@ -1,1 +1,9 @@
-
+.app {
+  width: fit-content;
+}
+li {
+  font-weight: 600;
+}
+h2 {
+  text-align: center;
+}
