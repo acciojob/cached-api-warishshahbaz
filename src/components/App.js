@@ -29,7 +29,10 @@ const App = () => {
           catchedValue?.map((val, i) => {
             return (
               <div key={i}>
-                <li>{val.title ?? ""}</li>
+                <li>
+                  {" "}
+                  <h4>{val.title ?? ""}</h4>
+                </li>
                 <p>{val.body ?? ""}</p>
               </div>
             );
